@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import "tailwindcss";
+
+html,
+body {
+  background-color: #1a0a00;
+  color: #f5deb3;
+  font-family: "Click on menu to start!", cursive;
+}
+
+@media (prefers-color-scheme: dark) {
+  html,
+  body {
+    color-scheme: dark;
+  }
+}
+
+@theme {
+  --color-retro-50:  #fff8f0;
+  --color-retro-100: #ffe4c4;
+  --color-retro-200: #ffb347;
+  --color-retro-300: #ff8c00;
+  --color-retro-400: #e07000;
+  --color-retro-500: #c45c00;
+  --color-retro-600: #8b3a00;
+  --color-retro-700: #5c2200;
+  --color-retro-800: #2e1100;
+  --color-retro-900: #1a0a00;
+  --color-retro-950: #0d0500;
+}
